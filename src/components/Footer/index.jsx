@@ -41,11 +41,11 @@ export const Footer = () => {
             </div>
             <div className='services-container'>
                 <div className='services'>
-                    <div className='others'>
+                    <div className='others responsive-grow'>
                         <div className='others-title'>
                             <img src='/src/assets/chicks-logo-large.svg' alt='Chicksgold Brand Logo' />
                         </div>
-                        <span>support@chicsgold.com</span>
+                        <span className='support-email'>support@chicksgold.com</span>
                     </div>
                     <div className='others'>
                         <div className='others-title'>

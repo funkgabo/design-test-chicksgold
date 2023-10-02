@@ -13,19 +13,20 @@ ul li {
     width: 100%;
     background-color: #303141;
     padding: 0 12px;
-    border-bottom: 1px solid rgba(76,96,133,.5);
+    border-bottom: 1px solid rgba(76, 96, 133, .5);
     position: fixed;
 }
 
 .navigation {
     display: flex;
+    min-height: 72px;
 }
 
 .chicksgold-brand-logo-container {
     display: flex;
     align-items: center;
     padding: 0 40px 0 20px;
-    border-right: 1px solid hsla(0,0%,100%,.3);
+    border-right: 1px solid hsla(0, 0%, 100%, .3);
     height: 48px;
     margin: auto 0;
 }
@@ -36,7 +37,6 @@ ul li {
 }
 
 .navigation-menu-container {
-    width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -91,4 +91,57 @@ ul li {
 
 .signin-button span {
     font-weight: 500;
+}
+
+.b-menu {
+    display: none;
+}
+
+.b-menu img {
+    width: 40px;
+}
+
+@media only screen and (max-width: 1510px) {
+    .chicksgold-brand-logo-container {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1290px) {
+    .menu-options {
+        display: none;
+    }
+
+    .b-menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .chicksgold-brand-logo-container {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .navigation {
+        justify-content: space-between;
+    }
+
+    .b-menu img {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 692px) {
+    .menu-actions li:nth-child(1) {
+        display: none;
+    }
+    .menu-actions li:nth-child(2) {
+        display: none;
+    }
+
+    .chicksgold-brand-logo-container>img {
+        display: none;
+    }
 }
