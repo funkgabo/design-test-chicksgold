@@ -5,9 +5,9 @@ export const Header = () => {
         <div className='navContainer'>
             <nav className='navigation'>
                 <div className='chicksgold-brand-logo-container'>
-                <div className='b-menu'>
-                    <img src='/src/assets/b-menu.png' />
-                </div>
+                    <div className='b-menu'>
+                        <img src='/src/assets/b-menu.png' />
+                    </div>
                     <img src='/src/assets/chicks-logo-large.svg' alt='chicksgold-brand-logo' />
                 </div>
                 <div className='navigation-menu-container'>

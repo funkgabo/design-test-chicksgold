@@ -137,6 +137,7 @@ ul li {
     .menu-actions li:nth-child(1) {
         display: none;
     }
+
     .menu-actions li:nth-child(2) {
         display: none;
     }

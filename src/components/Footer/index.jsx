@@ -71,16 +71,22 @@ export const Footer = () => {
                             <span>Copyright Policy</span>
                         </div>
                     </div>
-                    <div className='others'>
-                        <div className='others-title'>
-                            <p>Difrent</p>
-                            <span>Games</span>
-                            <span>About Us</span>
-                            <span>Blog</span>
-                            <span>Sitemap</span>
+                    <div className='others flex-direction'>
+                        <div className='trust-stars-container'>
+                            <img className='star' src='/src/assets/star.png' alt='Star' />
+                            <img className='star' src='/src/assets/star.png' alt='Star' />
+                            <img className='star' src='/src/assets/star.png' alt='Star' />
+                            <img className='star' src='/src/assets/star.png' alt='Star' />
+                            <img className='star' src='/src/assets/star.png' alt='Star' />
+                        </div>
+                        <div>
+                            <span className='trusted'>Trustpilot Reviews</span>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className='rights'>
+                <p>© 2017 - 2023 Chicksgold.com. All Rights Reserved</p>
             </div>
         </footer>
     );
