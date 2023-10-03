@@ -11,7 +11,7 @@ export const QuickFilter = ({icon, TitleLabel, settedLabel}) => {
                 <span>{settedLabel}</span>
             </div>
             <div className='quick-filter-arrow'>
-                <img src='/src/assets/arrow-down2.svg' alt='arrow' />
+                <img src='./src/assets/arrow-down2.svg' alt='arrow' />
             </div>
         </div>
     );

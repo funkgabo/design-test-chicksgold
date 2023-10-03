@@ -14,14 +14,14 @@ export const Home = () => {
                 <div className='filter-bar-container'>
                     <SelectGame />
                     <Searcher />
-                    <QuickFilter icon={'/src/assets/bag.svg'} TitleLabel='Price' settedLabel='All' />
-                    <QuickFilter icon={'/src/assets/feather.svg'} TitleLabel='Item Type' settedLabel='All' />
+                    <QuickFilter icon={'./src/assets/bag.svg'} TitleLabel='Price' settedLabel='All' />
+                    <QuickFilter icon={'./src/assets/feather.svg'} TitleLabel='Item Type' settedLabel='All' />
                 </div>
                 <div className='results-table-container'>
                     <div className='header-results-table'>
                         <span className='showing-counter'>Showing 20 - from 125</span>
                         <div className='quick-filter-container'>
-                            <QuickFilter icon={'/src/assets/controls.svg'} TitleLabel='Sort By' settedLabel='Featured' />
+                            <QuickFilter icon={'./src/assets/controls.svg'} TitleLabel='Sort By' settedLabel='Featured' />
                         </div>
                     </div>
                     <div className='content-resutls-table'>

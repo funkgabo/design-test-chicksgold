@@ -1,5 +1,5 @@
 .main-container {
-    background-image: url(/src/assets/eft-wallpaper.png);
+    background-image: url(./src/assets/eft-wallpaper.png);
     object-fit: cover;
     background-repeat: no-repeat;
     padding: 182px 40px 80px 40px;

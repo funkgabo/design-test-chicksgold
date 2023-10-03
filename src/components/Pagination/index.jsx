@@ -5,7 +5,7 @@ export const Pagination = () => {
     return (
         <div className='pagination-container'>
             <div className='left-arrow-container'>
-                <img src='/src/assets/left-arrow.svg' alt='left arrow' />
+                <img src='./src/assets/left-arrow.svg' alt='left arrow' />
             </div>
             <div className='pagination-numbers-container'>
                 {pagNumbers.map(item => (
@@ -13,7 +13,7 @@ export const Pagination = () => {
                 ))}
             </div>
             <div className='right-arrow-container'>
-                <img src='/src/assets/right-arrow.svg' alt='left arrow' />
+                <img src='./src/assets/right-arrow.svg' alt='left arrow' />
             </div>
         </div>
     );

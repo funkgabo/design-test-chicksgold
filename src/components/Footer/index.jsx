@@ -6,19 +6,19 @@ export const Footer = () => {
             <div className='payment-methods-container'>
                 <div className='payment-methods'>
                     <div>
-                        <img src='/src/assets/visa.png' />
+                        <img src='./src/assets/visa.png' />
                     </div>
                     <div>
-                        <img src='/src/assets/m-card.png' />
+                        <img src='./src/assets/m-card.png' />
                     </div>
                     <div>
-                        <img src='/src/assets/a-express.png' />
+                        <img src='./src/assets/a-express.png' />
                     </div>
                     <div>
-                        <img src='/src/assets/skrill.png' />
+                        <img src='./src/assets/skrill.png' />
                     </div>
                     <div>
-                        <img src='/src/assets/b-coins.png' />
+                        <img src='./src/assets/b-coins.png' />
                     </div>
                     <span>and 50+ more</span>
                 </div>
@@ -26,16 +26,16 @@ export const Footer = () => {
             <div className='social-media-container'>
                 <div className='social-media'>
                     <div>
-                        <img src='/src/assets/fb.png' />
+                        <img src='./src/assets/fb.png' />
                     </div>
                     <div>
-                        <img src='/src/assets/ig.png' />
+                        <img src='./src/assets/ig.png' />
                     </div>
                     <div>
-                        <img src='/src/assets/twt.png' />
+                        <img src='./src/assets/twt.png' />
                     </div>
                     <div>
-                        <img src='/src/assets/dc.png' />
+                        <img src='./src/assets/dc.png' />
                     </div>
                 </div>
             </div>
@@ -43,7 +43,7 @@ export const Footer = () => {
                 <div className='services'>
                     <div className='others responsive-grow'>
                         <div className='others-title'>
-                            <img src='/src/assets/chicks-logo-large.svg' alt='Chicksgold Brand Logo' />
+                            <img src='./src/assets/chicks-logo-large.svg' alt='Chicksgold Brand Logo' />
                         </div>
                         <span className='support-email'>support@chicksgold.com</span>
                     </div>
@@ -73,11 +73,11 @@ export const Footer = () => {
                     </div>
                     <div className='others flex-direction'>
                         <div className='trust-stars-container'>
-                            <img className='star' src='/src/assets/star.png' alt='Star' />
-                            <img className='star' src='/src/assets/star.png' alt='Star' />
-                            <img className='star' src='/src/assets/star.png' alt='Star' />
-                            <img className='star' src='/src/assets/star.png' alt='Star' />
-                            <img className='star' src='/src/assets/star.png' alt='Star' />
+                            <img className='star' src='./src/assets/star.png' alt='Star' />
+                            <img className='star' src='./src/assets/star.png' alt='Star' />
+                            <img className='star' src='./src/assets/star.png' alt='Star' />
+                            <img className='star' src='./src/assets/star.png' alt='Star' />
+                            <img className='star' src='./src/assets/star.png' alt='Star' />
                         </div>
                         <div>
                             <span className='trusted'>Trustpilot Reviews</span>
