@@ -150,6 +150,7 @@ footer {
 @media only screen and (max-width: 880px) {
     .services {
         flex-wrap: wrap;
+        padding: 0 20px;
     }
 
     .responsive-grow {
@@ -176,6 +177,7 @@ footer {
 @media only screen and (max-width: 620px) {
     .services {
         align-items: center;
+        padding: 0 20px;
     }
 
     .others {

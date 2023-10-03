@@ -2,7 +2,7 @@
     background-image: url(/src/assets/eft-wallpaper.png);
     object-fit: cover;
     background-repeat: no-repeat;
-    padding: 182px 0 80px 0;
+    padding: 182px 40px 80px 40px;
     display: flex;
     justify-content: center;
 }
@@ -17,9 +17,10 @@
 }
 
 .filter-bar-container {
-    height: 45px;
+    min-height: 45px;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 12px;
 }
@@ -32,6 +33,34 @@ h1.title-condimentum {
 
 .results-table-container {
     width: 100%;
-    height: 600px;
-    background-color: black;
+    box-sizing: border-box;
+    height: auto;
+    box-shadow: 0px 0px 40px hsl(0, 0%, 0%, .2);
+    padding: 50px 20px;
+    background-color: #363747;
+    border: 1px solid hsl(238, 14%, 53%, .4);
+}
+
+.header-results-table {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-resutls-table {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    gap: 20px 10px;
+    justify-items: center;
+}
+
+.header-results-table {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+span.showing-counter {
+    color: white;
 }

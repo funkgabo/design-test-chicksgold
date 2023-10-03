@@ -1,0 +1,160 @@
+.card-container {
+    max-width: 260px;
+    width: 100%;
+    min-height: 300px;
+    background-color: rgba(76, 96, 133, .15);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sale-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.on-sale {
+    color: rgb(231, 231, 231);
+    font-size: 11px;
+}
+
+.on-sale-container img {
+    width: 6px;
+    margin-right: 10px;
+}
+
+.in-stock-button {
+    border-radius: 2px;
+    color: #39e29d;
+    border: 1px solid #39e29d;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 10px;
+    letter-spacing: 1.2px;
+    font-weight: 100;
+    padding: 7px 13px;
+    border-radius: 5px;
+}
+
+.input-number-container {
+    display: flex;
+
+}
+
+.arrows-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(76, 96, 133, .15);
+    padding: 5px;
+}
+
+.arrows-container img {
+    width: 13px;
+    cursor: pointer;
+}
+
+
+
+.input-number-container input {
+    width: 30px;
+    background-color: rgba(76, 96, 133, .15);
+    border: transparent;
+    outline: none;
+    margin: 0;
+    padding: 0 0 0 8px;
+    color: aliceblue;
+}
+
+.input-number-container input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.card-body {
+    padding: 15px 0;
+}
+
+.card-img img {
+    width: 70px;
+}
+
+.card-content h6 {
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+.card-price-container {
+    color: aliceblue;
+    font-size: 13px;
+    display: flex;
+    gap: 7px;
+}
+
+.card-discount {
+    text-decoration: line-through;
+    text-decoration-color: red;
+    color: rgb(181, 181, 184);
+}
+
+.card-description {
+    color: rgb(181, 181, 184);
+    font-size: 12px;
+}
+
+.card-body-title-container {
+    margin: 3px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-body-title-container img {
+    width: 35px;
+}
+
+.card-footer {
+    display: flex;
+    gap: 20px;
+}
+
+.details-buttion,
+.add-buttion {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.details-buttion {
+    background-color: #3f4254;
+    color: rgb(181, 181, 184);
+}
+
+.add-buttion {
+    background-color: #5762d5;
+    color: aliceblue;
+    display: flex;
+}
+
+.card-cart-container {
+    background-color: #454da8;
+    padding: 4px 10px;
+    border-radius: 3px;
+}
+
+.card-cart-container img {
+    width: 15px;
+}
