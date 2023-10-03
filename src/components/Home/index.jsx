@@ -1,4 +1,5 @@
 import { Card } from '../Card';
+import { Pagination } from '../Pagination';
 import { QuickFilter } from '../QuickFilter';
 import { Searcher } from '../Searcher';
 import { SelectGame } from '../SelectGame';
@@ -19,13 +20,16 @@ export const Home = () => {
                 <div className='results-table-container'>
                     <div className='header-results-table'>
                         <span className='showing-counter'>Showing 20 - from 125</span>
-                        <QuickFilter icon={'/src/assets/controls.svg'} TitleLabel='Sort By' settedLabel='Featured' />
+                        <div className='quick-filter-container'>
+                            <QuickFilter icon={'/src/assets/controls.svg'} TitleLabel='Sort By' settedLabel='Featured' />
+                        </div>
                     </div>
                     <div className='content-resutls-table'>
                         {arr.map(item => (
-                            <Card />
+                            <Card key={item} />
                         ))}
                     </div>
+                    <Pagination />
                 </div>
             </div>
         </main>
