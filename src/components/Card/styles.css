@@ -126,7 +126,7 @@
 
 .card-footer {
     display: flex;
-    gap: 20px;
+    justify-content: space-between;
 }
 
 .details-buttion,
@@ -134,7 +134,7 @@
     display: flex;
     align-items: center;
     gap: 6px;
-    padding: 10px 15px;
+    padding: 7px 10px;
     border-radius: 5px;
 }
 
